@@ -338,8 +338,6 @@ This diagram explains **exactly how goals are sent and completed** — interview
 
 ## 🧩 Responsibility Boundary Diagram
 
-This prevents *"why didn't you put X in Y?"* questions.
-```text
 +----------------------+------------------------------+
 | Component            | Responsibility               |
 +----------------------+------------------------------+
@@ -354,7 +352,4 @@ This prevents *"why didn't you put X in Y?"* questions.
 
 ---
 > Each module owns a single responsibility, and Nav2 remains the only component allowed to move the robot."
-
-That statement alone puts you **above 90% of student projects**.
-
 ---
