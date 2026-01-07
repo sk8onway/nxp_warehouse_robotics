@@ -337,7 +337,7 @@ This diagram explains **exactly how goals are sent and completed** — interview
 ---
 
 ## 🧩 Responsibility Boundary Diagram
-
+```
 +----------------------+------------------------------+
 | Component            | Responsibility               |
 +----------------------+------------------------------+
