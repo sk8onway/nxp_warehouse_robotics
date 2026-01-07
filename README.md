@@ -353,11 +353,6 @@ This prevents *"why didn't you put X in Y?"* questions.
 ```
 
 ---
-
-## 🎤 How to Explain This Diagram in an Interview (Say This)
-
-> "I intentionally kept the FSM small and explicit.
-> Exploration runs until the map is exhausted, then the system switches once to shelf navigation.
 > Each module owns a single responsibility, and Nav2 remains the only component allowed to move the robot."
 
 That statement alone puts you **above 90% of student projects**.
