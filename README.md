@@ -349,6 +349,14 @@ This diagram explains **exactly how goals are sent and completed** — interview
 | Nav2                 | Path planning & execution    |
 +----------------------+------------------------------+
 ```
+## License & Scope
+
+This repository is licensed under the MIT License and contains only original
+autonomy and decision-making logic written by the author.
+
+Platform-specific code, SDKs, robot descriptions, launch files, and
+configurations provided by NXP or Cognipilot are intentionally excluded due
+to proprietary and program-specific constraints.
 
 ---
 > Each module owns a single responsibility, and Nav2 remains the only component allowed to move the robot."
