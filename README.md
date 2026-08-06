@@ -105,7 +105,7 @@ nxp_warehouse_robotics/
 
 ---
 
-## 🧭 Design Philosophy
+## Design Philosophy
 
 ### Thin `main_node.py`
 
@@ -143,7 +143,7 @@ This avoids hidden state and simplifies debugging.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 
 The system was validated incrementally:
 
@@ -164,7 +164,7 @@ Testing was intentionally **non-monolithic**, reflecting real robotics workflows
 
 ---
 
-## 🚀 How This Node Is Run
+## How This Node Is Run
 
 This repository **does not launch a robot**.
 
@@ -182,7 +182,7 @@ The autonomy node attaches to the already running system.
 
 ---
 
-## 🎯 Project Status
+## Project Status
 
 * ✅ Architecture complete
 * ✅ Exploration stable
@@ -195,7 +195,7 @@ Overall completion: **~85–90%**
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * Designing autonomy separately from robot hardware
 * SLAM map semantics and grid ↔ world transforms
@@ -216,7 +216,7 @@ Due to competition rules:
 
 ---
 
-## 📌 Intended Audience
+## Intended Audience
 
 * Robotics engineers
 * Interviewers reviewing autonomy/system design
@@ -224,7 +224,7 @@ Due to competition rules:
 
 ---
 
-## 🔀 Finite State Machine (FSM)
+## Finite State Machine (FSM)
 
 The autonomy logic is governed by a **simple, explicit FSM** owned entirely by `main_node.py`.
 ```text
@@ -261,7 +261,7 @@ The autonomy logic is governed by a **simple, explicit FSM** owned entirely by `
 
 ---
 
-## 🧠 High-Level Data Flow Diagram
+## High-Level Data Flow Diagram
 
 This diagram shows **how data flows between layers**, not ROS nodes.
 ```text
@@ -300,9 +300,9 @@ This diagram shows **how data flows between layers**, not ROS nodes.
 
 ---
 
-## 🧭 Navigation Goal Lifecycle
+##  Navigation Goal Lifecycle
 
-This diagram explains **exactly how goals are sent and completed** — interviewers love this.
+This diagram explains **exactly how goals are sent and completed**
 ```text
 [ ShelfGoalPlanner ]
         │
@@ -336,7 +336,7 @@ This diagram explains **exactly how goals are sent and completed** — interview
 
 ---
 
-## 🧩 Responsibility Boundary Diagram
+##  Responsibility Boundary Diagram
 ```
 +----------------------+------------------------------+
 | Component            | Responsibility               |
